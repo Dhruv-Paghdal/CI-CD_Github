@@ -5,7 +5,7 @@ const studentModel = require("../model/Student");
 const secret = "123!@#";
 
 router.get("/", (req, res) => {
-    res.send("Hello World!")
+    res.send("Hello World, Hello Jahan!")
 })
 // Routes for signup and login
 /**
